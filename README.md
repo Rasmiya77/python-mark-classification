@@ -2,9 +2,12 @@
 
 ## 📌 About the Project
 
-This project is developed to demonstrate fundamental programming concepts and structured problem-solving.
+This project was originally developed as part of an **academic programming assignment** to demonstrate fundamental Python programming concepts.
 
-The program accepts a student's mark, validates the input, and displays the appropriate result based on the mark range. It also includes error handling to manage invalid user input.
+After completing the assignment, the program was **further improved and enhanced** before being uploaded to GitHub. The updated version includes additional input validation, error handling, and program control features to make the program more robust and user-friendly.
+
+The program accepts a student's mark, validates the input, and displays the appropriate result based on the mark range.
+
 
 ## ✨ Features
 
@@ -66,6 +69,4 @@ Through this project, I developed an understanding of:
 ## 👩‍💻 Author
 
 **Rasmiya Mohamed Yusuf**
-
-*Developed as part of an academic programming assignment.*
 

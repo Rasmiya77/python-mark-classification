@@ -14,10 +14,14 @@ The program accepts a student's mark, validates the input, and displays the appr
 * Accepts marks from **0 to 100**
 * Displays **Fail**, **Credit**, or **Distinction**
 * Validates marks entered by the user
-* Handles non-numeric input using `try-except`
-* Prevents invalid marks from being accepted
+* Handles non-numeric input using **try-except**
+* Prevents marks above 100 from being accepted
 * Allows the user to exit by entering a negative number
 * Continuously accepts marks until the user chooses to exit
+* Uses **functions** to organise the grading logic
+* Uses **input validation** to handle invalid entries
+* Provides clear and user-friendly messages
+
 
 ## 📊 Grading Criteria
 

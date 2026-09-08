@@ -1,20 +1,35 @@
-while True:
-    try:
-        mark = int(input("Enter mark (0-100; to quit, enter a negative value): "))
+def calculate_grade(mark):
+    """Calculate the grade based on the mark."""
+    if mark < 50:
+        return "Fail"
+    elif mark < 70:
+        return "Credit"
+    else:
+        return "Distinction"
 
-        if mark < 0:
-            break
 
-        if mark < 50:
-            print("Fail")
-        elif mark < 70:
-            print("Credit")
-        elif mark <= 100:
-            print("Distinction")
-        else:
-            print("Invalid mark. Please re-enter.")
+def main():
+    print("=== Student Mark Grading System ===")
+    print("Enter a negative number to exit.\n")
 
-    except ValueError:
-        print("Error: Please enter numbers only. ")
+    while True:
+        try:
+            mark = int(input("Enter mark (0-100): "))
+
+            if mark < 0:
+                break
+
+            if mark > 100:
+                print("Invalid mark. Please enter a value between 0 and 100.\n")
+                continue
+
+            grade = calculate_grade(mark)
+            print(f"Result: {grade}\n")
+
+        except ValueError:
+            print("Error: Please enter a whole number.\n")
+
+
+main()
 
 print("Thanks. See you next time.")
